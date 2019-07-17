@@ -1,3 +1,460 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#container{
+width:940px;
+margin:0px auto;
+}
+
+nav *{
+	display:inline-block;
+	margin:auto 30px;
+	text-decoration:none;
+	color:lightgrey;
+}
+nav{
+	margin-bottom:20px;
+
+}
+	.website-wrapper{
+        font-size:14px;
+        line-height:1.5;
+        align-content:flex-start;
+        margin-bottom:20px;
+
+#title{
+	display:inline-block;
+	width:500px;
+	margin:auto;
+	text-align:center;
+}
+
+header* {
+	vertical-align:middle;
+}
+
+.container{
+    width:880px;
+    /* TB LR*/
+    margin:0 auto;
+}
+
+/*header*/
+
+header.nav a{
+    display:inline-block;
+    width:691px;
+    vertical-align:top;
+    margin-top:35px;
+}
+
+header nav a{
+    margin-right:65px;
+    font-size:14px;
+    color:grey;
+    text-decoration:none;
+}
+
+header nav a:hover{
+    text-decoration:underline;
+}
+
+header nav a:first-child {
+    margin-left:0;
+}
+
+header nav a:last-child{
+    margin-right:0
+}
+
+header.log{
+
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+margin-top:69x;
+    }
+
+    .main-content{
+        border-top:1px solid black;
+        margin-top:76px;
+        padding-top:39px;
+    }
+
+    .main-cotent .top-content{
+        padding:0 10px;
+    }
+
+    .main-content .top-content .text-content{
+        width:410px;
+        display:flex;
+        margin-right:34px;
+    }
+
+    .main-content .top-content .text-content:last-child{
+margin-right:0;
+    }
+
+    .main-content .top-content .text-content:last-child{
+        margin-right:0;
+    }
+
+    .main-content .bottom-content{
+        margin-top:37px;
+        padding:o 10px;
+    }
+
+    .main-content .bottom-content .text-content{
+        width:275px;
+        display:inline-block;
+        margin-right:12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cta img{
+    display:none;
+}
+.cta{
+    justify-content:center;
+    width:100%;
+    margin:auto;
+}
+
+header div{
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+    display:flex;
+    flex-direction:column;
+}
+
+header div{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.logo{
+    order:2;
+    margin-right:120px;
+}
+
+nav{
+    order:2;
+    width:100%;
+}
+
+.text-content{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+
+
+.service-header-content img {
+    margin-left:2rem;
+}
+
+.services-header img{
+    padding:2%;
+    max-width:800px;
+}
+
+.services-top-content{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+h2{
+    font-size:40px;
+}
+
+body{
+    margin:0 auto;
+    width:800px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    width:70%;
+}
+
+.services-middle-content>div{
+    width:45%;
+    border:1px solid blak;
+    margin:1%;
+    pading:1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*height: auto;
+    }*/
+
+
+
+
+.cta{
+    justify-content:center;
+    width:100%;
+    margin:auto;
+}
+
+header{
+    width:100%;
+    justify-content:center;
+    flex-wrap:wrap;
+    display:flex;
+    flex-direction:column;
+}
+
+header div{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+.logo{
+    order:1;
+    margin-right:120px;
+}
+
+nav{
+    order:2;
+    width:100%;
+}
+
+.text-content{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cta{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.main-content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    margin:0 auto;
+}
+
+.top-content {
+    margin:auto;
+    justify-content:flex-start;
+}
+
+
+    }
+
+    @media (max-width:500){
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+    header {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .cta img {
+        display:none;
+    }
+
+    .cta{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+    }
+
+    .main-content{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:flex-start;
+    }
+
+.top-content{
+    margin:auto;
+    justify-content:flex-start;
+}
+
+@media (max-width:500){
+}
